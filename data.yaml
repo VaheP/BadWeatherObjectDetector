@@ -1,0 +1,11 @@
+# data.yaml
+
+# Paths to your training and validation images
+train: ./datasets/DAWN_split/train
+val: ./datasets/DAWN_split/val
+
+# Number of classes
+nc: 4
+
+# Class names
+names: ["Fog", "Rain", "Snow", "Sand"]
