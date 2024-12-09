@@ -4,6 +4,7 @@
 # which allows for non-commercial use only, the full terms of which are made
 # available in the LICENSE file.
 
+
 from __future__ import absolute_import, division, print_function
 
 import numpy as np
@@ -11,7 +12,7 @@ import torch
 import torch.nn as nn
 
 from collections import OrderedDict
-from layers import *
+from semester_project.haze_networks_niantic.layers import *
 
 
 class DepthDecoder(nn.Module):
